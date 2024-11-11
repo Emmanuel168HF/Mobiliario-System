@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS principal -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <style>
+        /* Estilos específicos para la página de contacto */
+
+        /* Fondo con imagen */
+        body {
+            background-image: url('images/fondo.jpg');
+            background-size: cover; /* Cubrir todo el fondo */
+            background-position: center; /* Centrar la imagen */
+            color: #333; /* Color de texto principal */
+            font-family: Arial, sans-serif; /* Fuente global */
+            margin: 0; /* Eliminar márgenes */
+            padding: 0; /* Eliminar relleno */
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 100px;
+        }
+
+        /* Estilos para el logo */
+        .logo {
+            position: absolute;
+            left: 20px;
+        }
+
+        .logo img {
+            height: 70px; /* Tamaño del logo */
+            vertical-align: middle; /* Alinear verticalmente con el texto */
+        }
+
+        /* Estilos para la navegación */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para el contenido principal */
+        main {
+            margin-top: 20px;
+            text-align: justify;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para la sección de información de contacto */
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .contact-info div {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .contact-info img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 50%; /* Borde redondeado para las imágenes */
+        }
+
+        .contact-info a {
+            display: block;
+            color: #333;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+            <br>
+            <h1> Mobiliario System</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="welcome.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="CoVe.html">Compra-Renta</a></li>
+                <li><a href="publicar.html">Publicar articulo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="politica.html">Politica de privacidad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contáctanos</h1>
+        <p>Tienes dudas, ideas, sugerencias, problemas, dificultades</p>
+        <p>Puedes ponerte en contacto con nosotros a través de los siguientes medios:</p>
+        <div class="contact-info">
+            <div>
+                <img src="images//contacto/telefono.jpg" alt="Teléfono">
+                <a href="tel:+527712916131">+52771 291 6131</a>
+            </div>
+            <div>
+                <img src="images/contacto/email.png" alt="Correo Electrónico">
+                <a href="moviliariooscarcd@gmail.com">moviliariooscarcd@gmail.com</a>
+            </div>
+            <div>
+                <img src="images/contacto/facebook.png" alt="Facebook">
+                <a href="https://www.facebook.com/profile.php?id=61561284360636" target="_blank">https://www.facebook.com/profile.php?id=61561284360636</a>
+            </div>
+            <div>
+                <img src="images/contacto/whatsapp.png" alt="WhatsApp">
+                <a href="https://wa.me/527712916131" target="_blank">+52 771 291 6131</a>
+            </div>
+        </div>
+        <p>
+            Estamos aquí para ayudarte con cualquier pregunta o solicitud que puedas tener. No dudes en llamarnos, enviarnos un 
+            correo electrónico o contactarnos a través de nuestras redes sociales. Nos aseguraremos de responder lo antes posible.
+        </p>
+    </main>
+</body>
+</html>
