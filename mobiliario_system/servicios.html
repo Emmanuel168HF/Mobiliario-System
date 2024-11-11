@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <style>
+
+        body {
+            background-image: url('images/fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            height: 100px;
+        }
+
+        .logo {
+            position: absolute;
+            left: 20px;
+        }
+
+        .logo img {
+            height: 70px;
+            vertical-align: middle;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            margin-top: 20px;
+            text-align: justify;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            line-height: 1.8;
+        }
+
+        main h1 {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            margin-bottom: 15px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+            <br>
+            <h1> Mobiliario System</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="welcome.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="CoVe.html">Compra-Renta</a></li>
+                <li><a href="publicar.html">Publicar articulo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="politica.html">Politica de privacidad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Nuestros Servicios</h1>
+        <p>
+            Nuestro Marketplace ofrece tres servicios principales para ayudarte a encontrar el mobiliario que necesitas:
+        </p>
+        <ul>
+            <li><strong>Compra de Muebles:</strong> Explora miles de anuncios de muebles en venta. Filtra por categoría, precio y ubicación para encontrar la mejor oferta, tal como en Facebook Marketplace.</li>
+            <li><strong>Venta de Mobiliario:</strong> Publica tus propios anuncios de manera gratuita. Agrega fotos, descripciones y precios para llegar a potenciales compradores interesados.</li>
+            <li><strong>Renta de Muebles:</strong> Perfecto para eventos temporales como bodas o conferencias. Alquila muebles con opciones de entrega y recogida coordinadas con el arrendador.</li>
+        </ul>
+        <p>
+            Además, nuestra plataforma cuenta con un sistema de mensajería directa para que puedas negociar y coordinar detalles con los usuarios, facilitando la experiencia de compra y venta.
+        </p>
+
+        <div class="image-container">
+            <img src="images/servicios/servicio1.jpg" alt="Sillas">
+            <img src="images/servicios/servicio2.jpg" alt="Mesas">
+            <img src="images/servicios/servicio3.png" alt="Manteles">
+            <img src="images/servicios/servicio4.jpg" alt="Carpas">
+            <img src="images/servicios/servicio5.jpg" alt="Inflables">
+        </div>
+        <a href="ordenar.html" class="cta-button">Ordenar Ahora</a>
+    </main>
+</body>
+</html>
